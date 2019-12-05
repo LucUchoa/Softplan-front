@@ -1,0 +1,47 @@
+{
+  "name": "Projeto_cadastro_pessoa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@dsb-norge/vue-keycloak-js": "^1.1.2",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "firebase": "^6.6.2",
+    "keycloak-js": "^7.0.0",
+    "leaflet": "^1.5.1",
+    "quasar": "^1.0.0",
+    "v-money": "^0.8.1",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-firebase": "^1.0.8",
+    "vue-firestore": "^0.3.22",
+    "vue-router": "^3.0.3",
+    "vue-session": "^1.0.0",
+    "vue2-leaflet": "^2.2.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-unit-mocha": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-imports": "1.5.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-quasar": "^1.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
